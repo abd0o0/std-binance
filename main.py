@@ -10,7 +10,6 @@ plt.show()
 Client = Client(api_key='lfr4xrolx8CtcNleqpbZk2s2uUDJxWqYk7wWt5utdU3ZxIbC5KfobAlUEUTOZ1VH',
                 api_secret='JD0zVJwhNf3xcm4dt04Ptnv6Zw7w0wjOdpEnIDjUAmlYwbouyOTmtifQtyztdVtq ')
 
-
 #print(pd.DataFrame(Client.get_historical_klines('BTCUSDT', '1m', '30min ago GMT+2')))
 
 def getminutedata(symbol, interval, lookback):
