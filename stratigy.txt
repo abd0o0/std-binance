@@ -1,0 +1,10 @@
+stratigy
+# buy if the asset fell by more than SD% by calculating the volatility (standard deviation) within the last 30min
+# sell if asset rise by more than SD-5% or falls further by SD-5%
+# Return of Assets= Net Income / Total Assets
+# smaller ratio
+# Return of Assets of today(checking how the asset performing over the interval)
+# == (return of the day - return of yesterday)/return of yesterday
+# == day/yesterday -1
+# cumulative return = (1+ ROA)*(1+ROY)-1 to solve the product problem we use LOG of return
+# after the sum we take the exp -1 and we get the same result
